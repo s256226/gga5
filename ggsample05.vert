@@ -7,5 +7,5 @@ uniform mat4 mc;
 void main(void)
 {
   vec4 pos = mix(p0, p1, t); //
-  gl_Position = mc * p0;
+  gl_Position = mc * pos;
 }
