@@ -6,5 +6,5 @@ uniform mat4 mc;
 
 void main(void)
 {
-  gl_Position = mc * mix(p0, p1, t);
+  gl_Position = mc * mix(p1, p0, t);
 }
